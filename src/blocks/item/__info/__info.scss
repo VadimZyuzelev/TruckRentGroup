@@ -1,3 +1,6 @@
 .item__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 48rem;
 }
