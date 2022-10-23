@@ -1,0 +1,25 @@
+.item-rent__info {
+    width: 48rem;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    //gap: 2rem;
+
+    .item-rent__title {
+        @include font(900, 4.3rem, 90%);
+        padding-bottom: 2rem;
+    }
+
+    .item-rent__description {
+        @include font (900, 2.4rem, 120%);
+        padding-bottom: 5rem;
+    }
+
+    .item-rent__button--color {
+        @include font (700, 1.6rem, 125%);
+        background: #43388F;
+        padding: 1.5rem 6.8rem;
+        width: 28rem;
+    }
+}

@@ -1,0 +1,4 @@
+.item__description {
+    @include font (400, 2rem, 120%);
+    padding-bottom: 5rem;
+}

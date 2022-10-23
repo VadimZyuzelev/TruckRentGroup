@@ -1,0 +1,4 @@
+.header__link {
+    @include font(500, 1.8rem, 120%);
+    color: $color-text-white;
+}

@@ -1,0 +1,8 @@
+.header__button--style {
+    border: none;
+    outline: none;
+    @include font(500, 1.8rem, 120%);
+
+    padding: 1.5rem 3.3rem;
+
+}

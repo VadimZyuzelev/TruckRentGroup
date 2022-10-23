@@ -1,0 +1,10 @@
+.header__nav {   
+
+    & :not(:last-child) {
+        margin-right: 12rem;
+    }
+
+    & :nth-child(3) {
+        margin-right: 19.1rem;
+    }
+}

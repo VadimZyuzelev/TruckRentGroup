@@ -1,0 +1,5 @@
+.item__title {
+    @include font (900, 3.5rem, 122%);
+
+    padding-bottom: 2rem;
+}
