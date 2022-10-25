@@ -1,0 +1,7 @@
+.features__wrap {
+    display: grid;
+    grid-template: 1fr / repeat(3, 38rem);
+    grid-auto-flow: row;
+    column-gap: 2rem;
+    row-gap: 5rem
+}

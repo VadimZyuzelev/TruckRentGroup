@@ -1,5 +1,6 @@
 .item__button {
-    @include font (700, 1.6rem, 125%);
+    @include font (700, 1.5rem, 125%);
     padding: 1.5rem 7.65rem;
-    width: 28rem
+    text-align: center;
+    width: 29rem
 }
