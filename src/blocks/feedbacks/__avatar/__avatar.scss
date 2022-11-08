@@ -1,0 +1,17 @@
+.feedbacks__avatar {
+    display: flex;
+    gap: 2rem;
+
+    margin-bottom: 2rem;
+
+    img {
+        width: 7.5rem;
+    }
+
+    .feedbacks__avatar-name {
+        @include font(700, 2rem, 120%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
